@@ -9,6 +9,14 @@
     "mbt": "^1.2.23",
     "npm-run-all": "^4.1.5"
   },
+  "dependencies": {
+    "@sap/approuter": "14.3.4"
+  },
+  "engines": {
+    "node": "18.17.1",
+    "npm": "10.2.3",
+    "pnpm": "8.10.2"
+  },
   "scripts": {
     "start:dev": "pnpm --parallel start:dev",
     "build:mta": "npx mbt build -p=cf --mtar=cap-ui5-gpt-chat_1.0.0.mtar",

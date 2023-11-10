@@ -37,7 +37,7 @@ builder:
       afterTask: uglify
       configuration:
         includeDependencies: false
-        archiveName: capui5gptchat-frontend
+        archiveName: capui5gptchat-ui
         additionalFiles:
           - xs-app.json
 server:

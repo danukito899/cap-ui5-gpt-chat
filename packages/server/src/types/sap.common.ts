@@ -21,6 +21,7 @@ export interface ICurrencies {
   descr: string;
   code: string;
   symbol: string;
+  minorUnit: unknown;
   texts?: ICurrenciesTexts[];
   localized?: ICurrenciesTexts;
 }

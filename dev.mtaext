@@ -8,7 +8,7 @@ modules:
     properties:     
       app_openai: >
         {
-          "apiKey": "<YOUR_API_KEY>",
+          "apiKey": "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",
           "completionAttributes": {
             "max_tokens": 1200,
             "temperature": 0.8,

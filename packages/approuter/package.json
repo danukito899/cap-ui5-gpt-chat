@@ -2,8 +2,13 @@
     "name": "@capui5gptchat/approuter",
     "description": "Node.js based application router service for html5-apps",
     "dependencies": {
-        "@sap/approuter": "^12"
+        "@sap/approuter": "ap/approuter"
     },
+    "engines": {
+        "node": "18.17.1",
+        "npm": "10.2.3",
+        "pnpm": "8.10.2"
+      },
     "scripts": {
         "start": "node node_modules/@sap/approuter/approuter.js"
     }
